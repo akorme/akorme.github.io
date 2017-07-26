@@ -1,42 +1,75 @@
 body {
 	font-family: 'Arial';
 	border: 3px groove #000;
-	background: none;
 	color: #333;
+  margin: 0;
 }
 
 #page {
-	margin: 0;
+	margin: 0 auto;
+  max-width: 1320px;
 }
 
 p {
 	font-size: 16px;
 }
 
-.site-header {
-	padding-top: 1em;
+header {
+	padding: 1em 4.5455% 5.25em;
+  display: flex;
+  flex-direction: column;
 }
 
-.site-branding {
-	display: flex;
-	align-items: center;
-	margin: 0;
-}
-.site-branding a {
-	margin-right: 32px;
-}
-.site-header-main {
-	flex-direction: column;
-}
-.site-header-main .site-branding a img {
-	width: 100px;
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#main .entry-header, #main .entry-content {
-	margin-left: 0;
+header div img {
+  width: 100px;
+  margin-right: 32px;
+}
+header div a {
+  text-decoration: none;
+  color: #000;
+  font-size: 32px;
+  font-weight: bold;
 }
 
-#main .entry-content ul {
-	padding-left: 0;
-	list-style-type: none;
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.75em;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  padding: 5px;
+  color: #000;
+  text-decoration: none;
+}
+main {
+  padding: 0 4.5455%;
+}
+main h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.05em;
+}
+main p {
+  line-height: 1.75;
+}
+main div ul {
+  list-style: none;
+  padding: 0;
+}
+main div ul li {
+  margin-bottom: 5px;
 }
