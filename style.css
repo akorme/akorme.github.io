@@ -1,0 +1,42 @@
+body {
+	font-family: 'Arial';
+	border: 3px groove #000;
+	background: none;
+	color: #333;
+}
+
+#page {
+	margin: 0;
+}
+
+p {
+	font-size: 16px;
+}
+
+.site-header {
+	padding-top: 1em;
+}
+
+.site-branding {
+	display: flex;
+	align-items: center;
+	margin: 0;
+}
+.site-branding a {
+	margin-right: 32px;
+}
+.site-header-main {
+	flex-direction: column;
+}
+.site-header-main .site-branding a img {
+	width: 100px;
+}
+
+#main .entry-header, #main .entry-content {
+	margin-left: 0;
+}
+
+#main .entry-content ul {
+	padding-left: 0;
+	list-style-type: none;
+}
